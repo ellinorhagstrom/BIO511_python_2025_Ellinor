@@ -33,7 +33,7 @@ print("--------------------------------")
 
 #Solution were the type is hardcoded
 x = [1,2,3]
-if type(x) is list:
+if (type(x) is list) or (type(x) is tuple) or (type(x) is range):
     print("Correct input type")
     if len(x) == 0:
         print("List is empty")
