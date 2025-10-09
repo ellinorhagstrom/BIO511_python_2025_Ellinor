@@ -16,6 +16,13 @@ for item in mylist7:
         print(item, loop_number)
         loop_number+=1
 
+#3.1 but with enumerate
+for loop_number, item in enumerate(mylist7,start=1):
+    if loop_number > 5:
+        break
+    else:
+        print(item, loop_number)
+
 #3.2
 sequences = ['ATCTGAGTCCACACATG', 'GCGTCGTGCGATGTTCACGTTGAT', 'CAGTAGTACTCAGT', 'GGTATGCTAGACGAGATCTAATA']
 codons = ['CCA', 'TGT', 'GTA', 'TAG']
